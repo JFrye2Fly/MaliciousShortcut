@@ -57,7 +57,10 @@
 <br> <br>
 
 ## Classic Persistence
-<div style="padding-top:102.222%;position:relative;"><iframe src="https://gifer.com/embed/3ltv" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div><p><a href="https://gifer.com">via GIFER</a></p>
+<br>
+<img width="270" height="276" alt="3ltv" src="https://github.com/user-attachments/assets/37bb9a7b-93e9-4cce-9129-94264f49d00b" />
+</br>
+
 
 ### Final Clean up
 <p>
