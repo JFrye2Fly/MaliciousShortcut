@@ -9,11 +9,11 @@
 <h4> On March 20th at 3:22am an email with a malicious attachment was successfully delivered to Cooper's inbox </h4>
 
   <img width="1715" height="858" alt="Email to cooper was allowed" src="https://github.com/user-attachments/assets/46f2aecb-32a9-44fa-88cf-518155fa3ee5" />
-<br>
+<br> <br>
 
 <h4>Cooper downloaded the file at 1:47pm on March 20th</h4>
   <img width="1736" height="611" alt="Cooper downloaded this file" src="https://github.com/user-attachments/assets/62ff191c-6826-4e0e-9183-da573515837a" />
-<br>
+<br> br>
 
 
 <br>
