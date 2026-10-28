@@ -17,12 +17,16 @@
 
 
 <h4>I checked the hash of this attachment in Virus Total... It is malicious!!</h4>
+<text></text>
 <img width="1766" height="978" alt="WE-2 Hash is malicious" src="https://github.com/user-attachments/assets/11ba8ca3-fafd-4efa-a074-bd06343eb669" />
 <br>
 
 
 
-## Per usual I looked up the reputation of the Source IP Address: 120.48.36.175
+<h4> When the email attachment was downloaded and executed, it created a shortcut</h4>
+<img width="1136" height="495" alt="Malicious shortcut made after Zip file was downloaded" src="https://github.com/user-attachments/assets/11d5b3bc-8645-42b5-9fd8-a343c4161b29" />
+<br>
+
 <br>
 
 ## Test
