@@ -19,8 +19,7 @@
 <h4>I checked the hash of this attachment in Virus Total... It is malicious!!</h4>
 <text></text>
 <img width="1766" height="978" alt="WE-2 Hash is malicious" src="https://github.com/user-attachments/assets/11ba8ca3-fafd-4efa-a074-bd06343eb669" />
-<br>
-
+<br> <br>
 
 
 <h4> When the email attachment was downloaded and executed, it created a shortcut</h4>
