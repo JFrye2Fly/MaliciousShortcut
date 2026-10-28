@@ -25,61 +25,50 @@
 <img width="1136" height="495" alt="Malicious shortcut made after Zip file was downloaded" src="https://github.com/user-attachments/assets/11d5b3bc-8645-42b5-9fd8-a343c4161b29" />
 <br> <br>
 
-<h4>When that shortcut was run Powershell reached out to an external IP</h4>
+<br>
+<h4>When that shortcut was run Powershell reached out to an external IP 18.223.186.229</h4>
 <br>
 
 <text>
  - According to Virus Total, the 18.223.186.229 IP is malicious and used for phishing <br>
  - The PowerShell command line Uses Execution Policy Bypass which bypasses Powershell's execution-policy restrictions <br>
  - The -W flag runs the Powershell in a hidden Window
+ - It runs a remotely hosted Script called MBS.PS1, but it never saves it to the disk
 </text>
-<br>
-<img width="1406" height="812" alt="image" src="https://github.com/user-attachments/assets/8bcf6385-887f-4021-a64f-2de6ae60483c" />
+
+
+<h4>After that MBS.PS1 script is ran we see a new local user is created on this computer</h4>
+<img width="1012" height="465" alt="image" src="https://github.com/user-attachments/assets/95fd883c-0600-4f6d-b1dd-e249c5594e9b" />
 <br> <br>
 
 
+<h4>The new user "Helpdesk" is then added to the Administrators groups</h4>
+<img width="1136" height="768" alt="New Local User added to Administrators group" src="https://github.com/user-attachments/assets/cdc1a5c4-6d37-4b90-8b16-87e9643c3405" />
+<br> <br>
 
-<img width="1898" height="926" alt="Suspicious Source IP" src="https://github.com/user-attachments/assets/fd00e7b9-e22f-4fa5-8dd3-2be8d13e920e" />
-<br>
-
-## Test
-
-<br>
-  <img width="904" height="495" alt="Username=adm Password=Iloveyou" src="https://github.com/user-attachments/assets/ea0f5aa0-5b30-4a19-b7d9-a12d46cdadf0" />
-<br>
-
-<br>
-  <img width="1093" height="564" alt="Username=Admin Password=12345" src="https://github.com/user-attachments/assets/f66c0502-5d10-4088-a466-666ac2d56e43" />
-<br>
-
-<br>
-  <img width="1242" height="548" alt="Username=Test Password=12345" src="https://github.com/user-attachments/assets/0279b7c5-50b9-4a51-b721-7f0cb47ba10d" />
-<br>
-
-<br>
-<img width="1021" height="577" alt="Username=guest Password=12345" src="https://github.com/user-attachments/assets/f5af77bf-6691-4396-8dd7-0d50b927fbfb" />
-<br>
-
-<br>
-<img width="1029" height="536" alt="Username=info Password=12345" src="https://github.com/user-attachments/assets/3ff21ce1-a809-44a1-a250-9439fafffe24" />
-<br>
-
-<br><hr><br>
-
-## Text
-
-<h3>This logon happened at 2:15pm. </h3>
-<br>
-<img width="1072" height="548" alt="Username=admin Password=password" src="https://github.com/user-attachments/assets/007bda10-84ef-4a43-871b-5fde4672b9ef" />
-<br>
-
-<h3>The Proxy Log shows that a successful logon occured at 2:15pm</h3>
-<br>
-<img width="1236" height="491" alt="User Login Successful" src="https://github.com/user-attachments/assets/29d139e3-b00d-46aa-a29b-b7935c7d3817" />
-<br>
+<h4>This "Helpdesk" user is also added to the Remote Desktop Users Group</h4>
+<img width="1490" height="932" alt="New Local User added to Remote Desktop Users group" src="https://github.com/user-attachments/assets/7c283a09-961b-4fc2-9c4b-9af3c51a6cc8" />
+<br> <br>
 
 
 # Conclusion
-## This was a successful Brute Force attempt. The extent of damage done after the bad actor gained access is hard to determine but it is clear that this Endpoint needed to be isolated from the network. 
+## The malicious email attachment was opened by Cooper and then caused his device to communicate with the C2 server at 18.223.186.229. Upon communicating with that C2 server it ran the remotely hosted MBS.PS1 script which likely opened a reverse shell from the attacker computer to Cooper's device. We see later that a new user is created named "Helpdesk" and is added to the Administrators and Remote Desktop Users groups. 
+
+<br> <br>
+
+## Classic Persistence
+
+### Final Clean up
+Aside from isolating this device from the network I also removed the **2025AnnualReport.7z** and **2025AnnualReport.lnk** files as well as the newly created "Helpdesk" local user from this computer.
+
+<img width="906" height="733" alt="Deleted Zip and Shortcut of Annual Report" src="https://github.com/user-attachments/assets/290ed95c-3689-4f45-84c9-44d59d413809" /> <br>
+
+<img width="893" height="717" alt="Deleted Help Desk user" src="https://github.com/user-attachments/assets/76cd38fd-dac1-4ce5-ae22-1d8b555a7918" />
+
+
+
+<br><br>
+
+
 
 
