@@ -26,14 +26,17 @@
 <br> <br>
 
 <h4>When that shortcut was run Powershell reached out to an external IP</h4>
-<img width="1406" height="812" alt="image" src="https://github.com/user-attachments/assets/8bcf6385-887f-4021-a64f-2de6ae60483c" />
-<br> <br>
+<br>
 
 <text>
  - According to Virus Total, the 18.223.186.229 IP is malicious and used for phishing <br>
  - The PowerShell command line Uses Execution Policy Bypass which bypasses Powershell's execution-policy restrictions <br>
  - The -W flag runs the Powershell in a hidden Window
 </text>
+<br>
+<img width="1406" height="812" alt="image" src="https://github.com/user-attachments/assets/8bcf6385-887f-4021-a64f-2de6ae60483c" />
+<br> <br>
+
 
 
 <img width="1898" height="926" alt="Suspicious Source IP" src="https://github.com/user-attachments/assets/fd00e7b9-e22f-4fa5-8dd3-2be8d13e920e" />
