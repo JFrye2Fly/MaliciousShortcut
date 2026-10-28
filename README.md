@@ -4,10 +4,13 @@
 ## Introduction
 In this letsDefend Scenario an alert was triggered after a user downloaded a malicious email attachment named AnnualReport.7z
 
-<br>
-On March 20th at 1:47pm an email with a malicious attachment was successfully delivered to Cooper's inbox
-<img width="1715" height="858" alt="Email to cooper was allowed" src="https://github.com/user-attachments/assets/46f2aecb-32a9-44fa-88cf-518155fa3ee5" />
 
+### On March 20th at 3:22am an email with a malicious attachment was successfully delivered to Cooper's inbox
+<br>
+  <img width="1715" height="858" alt="Email to cooper was allowed" src="https://github.com/user-attachments/assets/46f2aecb-32a9-44fa-88cf-518155fa3ee5" />
+<br>
+
+###
 
 <br>
 
