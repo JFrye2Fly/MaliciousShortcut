@@ -16,7 +16,7 @@
 <br> <br>
 
 
-<h4>I checked the hash of this attachment in Virus Total... It is malicious!!</h4>
+<h4>I checked the hash of this attachment in Virus Total... It is malicious!! It is malware dressed up as something different. AKA a TROJAN</h4>
 <img width="1766" height="978" alt="WE-2 Hash is malicious" src="https://github.com/user-attachments/assets/11ba8ca3-fafd-4efa-a074-bd06343eb669" />
 <br> <br>
 
