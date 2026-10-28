@@ -26,7 +26,7 @@
 <br> <br>
 
 <br>
-<h4>When that shortcut was run Powershell reached out to an external IP 18.223.186.229</h4>
+<h4>When that shortcut was run Powershell reached out to an external IP *18.223.186.229*</h4>
 <br>
 
 <text>
