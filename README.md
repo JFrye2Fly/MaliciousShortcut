@@ -67,7 +67,7 @@
   Aside from isolating this device from the network I also removed the **2025AnnualReport.7z** and **2025AnnualReport.lnk** files as well as the newly created "Helpdesk" local user from this computer.
 </p> <br>
 
-<p>I would also run a malware scan, check for any suspicious files in the Temp folder and check registry keys for other methods of persistence that have been added. </p>
+<p>I would also run a malware scan, clear browser history + cookies/cache, reboot the device and check for any suspicious files in the Temp folder and check registry keys for other methods of persistence that have been added. </p>
 
 <img width="906" height="733" alt="Deleted Zip and Shortcut of Annual Report" src="https://github.com/user-attachments/assets/290ed95c-3689-4f45-84c9-44d59d413809" /> <br>
 
