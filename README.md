@@ -30,8 +30,8 @@
 <br> <br>
 
 <text>
- - According to Virus Total, the 18.223.186.229 IP is malicious and used for phishing
- - The PowerShell command line Uses Execution Policy Bypass which bypasses Powershell's execution-policy restrictions
+ - According to Virus Total, the 18.223.186.229 IP is malicious and used for phishing <br>
+ - The PowerShell command line Uses Execution Policy Bypass which bypasses Powershell's execution-policy restrictions <br>
  - The -W flag runs the Powershell in a hidden Window
 </text>
 
