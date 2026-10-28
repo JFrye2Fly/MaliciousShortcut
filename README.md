@@ -57,9 +57,15 @@
 <br> <br>
 
 ## Classic Persistence
+<iframe src="https://gifer.com/embed/3ltv" width=480 height=490.667 frameBorder="0" allowFullScreen></iframe><p><a href="https://gifer.com">via GIFER</a></p>
+<br><br>
 
 ### Final Clean up
-Aside from isolating this device from the network I also removed the **2025AnnualReport.7z** and **2025AnnualReport.lnk** files as well as the newly created "Helpdesk" local user from this computer.
+<p>
+  Aside from isolating this device from the network I also removed the **2025AnnualReport.7z** and **2025AnnualReport.lnk** files as well as the newly created "Helpdesk" local user from this computer.
+</p> <br>
+
+<p>I would also run a malware scan, check for any suspicious files in the Temp folder and check registry keys for other methods of persistence that have been added. </p>
 
 <img width="906" height="733" alt="Deleted Zip and Shortcut of Annual Report" src="https://github.com/user-attachments/assets/290ed95c-3689-4f45-84c9-44d59d413809" /> <br>
 
