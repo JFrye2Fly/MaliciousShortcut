@@ -17,18 +17,25 @@
 
 
 <h4>I checked the hash of this attachment in Virus Total... It is malicious!!</h4>
-<text></text>
 <img width="1766" height="978" alt="WE-2 Hash is malicious" src="https://github.com/user-attachments/assets/11ba8ca3-fafd-4efa-a074-bd06343eb669" />
 <br> <br>
 
 
 <h4> When the email attachment was downloaded and executed, it created a shortcut</h4>
 <img width="1136" height="495" alt="Malicious shortcut made after Zip file was downloaded" src="https://github.com/user-attachments/assets/11d5b3bc-8645-42b5-9fd8-a343c4161b29" />
-<br>
+<br> <br>
 
-<br>
+<h4>When that shortcut was run Powershell reached out to an external IP</h4>
+<img width="1406" height="812" alt="image" src="https://github.com/user-attachments/assets/8bcf6385-887f-4021-a64f-2de6ae60483c" />
+<br> <br>
 
-## Test
+<text>
+ - According to Virus Total, the 18.223.186.229 IP is malicious and used for phishing
+ - The PowerShell command line Uses Execution Policy Bypass which bypasses Powershell's execution-policy restrictions
+ - The -W flag runs the Powershell in a hidden Window
+</text>
+
+
 <img width="1898" height="926" alt="Suspicious Source IP" src="https://github.com/user-attachments/assets/fd00e7b9-e22f-4fa5-8dd3-2be8d13e920e" />
 <br>
 
